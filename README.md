@@ -34,7 +34,7 @@ A client application for QnA Maker is any conversational application that commun
 
 1. Provide the required information:
 
-**Name:** chatbot-qna-<your initials>
+**Name:** chatbot-<your initials>
   
 **Subscription:** Select your existing subscription
 
@@ -48,7 +48,7 @@ A client application for QnA Maker is any conversational application that commun
 
 **Search Location:** Select Canada Central
 
-**App name:** chatbot-qna-<your initials>
+**App name:** chatbot-<your initials>
   
 **Website Location:** Select Canada Central
 
