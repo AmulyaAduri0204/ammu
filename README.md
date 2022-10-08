@@ -70,31 +70,6 @@ Don't close this **Publish** page. You need it later in the tutorial, to create 
 ### Use cURL to query for an FAQ answer
 
 
-1. Run the cURL command and receive the JSON response, including the score and answer. 
-
-    ```TXT
-      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                     Dload  Upload   Total   Spent    Left  Speed
-    100   581  100   543  100    38    418     29  0:00:01  0:00:01 --:--:--   447{
-      "answers": [
-        {
-          "questions": [
-            "How large a knowledge base can I create?"
-          ],
-          "answer": "The size of the knowledge base depends on the SKU of Azure search you choose when creating the QnA Maker service. Read [here](https://docs.microsoft.com/azure/cognitive-services/qnamaker/tutorials/choosing-capacity-qnamaker-deployment)for more details.",
-          "score": 35.92,
-          "id": 2,
-          "source": "https://docs.microsoft.com/azure/cognitive-services/qnamaker/faqs",
-          "metadata": []
-        }
-      ]
-    }
-    
-    ```
-
-    QnA Maker is somewhat confident with the score of 35.92%.  
-
-
 ### Use cURL to query for the default answer
 
 Any question that QnA Maker is not confident about receives the default answer. This answer is configured in the Azure portal. 
@@ -127,14 +102,13 @@ Any question that QnA Maker is not confident about receives the default answer. 
 ### Create a language service Bot
 
 Create a bot as a client application for the knowledge base. 
-
-1. In the QnA Maker portal, go to the **Publish** page, and publish your knowledge base. Select **Create Bot**. 
+ publish** page, and publish your knowledge base. Select **Create Bot**. 
 
    
 
 
     The Azure portal opens with the bot creation configuration.
-![Create the knowledge base bot with these settings.](/media/create-bot-from-azure-portal.PNG)
+
 
     Wait a couple of minutes until the bot creation process notification reports success.
 
