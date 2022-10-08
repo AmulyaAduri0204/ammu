@@ -229,7 +229,7 @@ For the user query of `When is your birthday?`, each personality has a styled re
 
 1. On **File name** sub section, click on **Add file** and add qna_chitchat_friendly.tsv file.
 
- ![Screenshot of add chit-chat](media/add-chit-chat-kb.PNG)
+
 
 1. Click **Save and Train** from top menu.
 
@@ -241,7 +241,7 @@ For the user query of `When is your birthday?`, each personality has a styled re
 
  
 
-1. Select the **Publish** button from the top menu. On the publish page, select **Publish**.
+
 
 #### Use cURL to query for a Chit-chat answer
 
@@ -281,7 +281,7 @@ For the user query of `When is your birthday?`, each personality has a styled re
    
     ```
 
-    Because the question of `Thank you` exactly matched a Chit-chat question, QnA Maker is completely confident with the score of 100. QnA Maker also returned all the related questions, as well as the metadata property containing the Chit-chat metadata tag information.  
+   
 
 #### Chat with the bot
 
