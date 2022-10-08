@@ -3,7 +3,7 @@
 In this workshop, you will learn how :
  * we use a language service
  * by using language create a bot
- * Integrate a knowledge base with Azure Bot Service
+ * Integrate with Azure Bot Service
  * Chat with the bot to verify the code is working
  * Add Chit-chat personality at your knowledge base
   
@@ -22,17 +22,13 @@ QnA Maker is a cloud-based Natural Language Processing (NLP) service that easily
 
 A client application for QnA Maker is any conversational application that communicates with a user in natural language to answer a question. Examples of client applications include social media apps, chat bots, and speech-enabled desktop applications.
 
-## Create a knowledge base from QnA Maker Portal
+## create a language service in azure portal
 
-### Create a knowledge base 
+### by using language studio create a bot
 
-1. Sign in to the [QnA Maker](https://www.qnamaker.ai) portal. 
 
-1. Select **Create a knowledge base** from the top menu.
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-1.png)
 
-1. Select Create a QnA service. You will be redirect on Azure Portal. 
 
 1. Provide the required information:
 
@@ -60,7 +56,7 @@ A client application for QnA Maker is any conversational application that commun
 
 1. Click Create to deploy the service. This step might take a few moments.
 
-1. Once the deployment is complete, return to QnA Maker portal and click Refresh on step 2.
+1. Once the deployment is complete, return to portal and click Refresh on step 2.
 
 1. Select your existing settings:  
 
@@ -68,13 +64,13 @@ A client application for QnA Maker is any conversational application that commun
     |--|--|
     |Microsoft Azure Directory ID|This ID is associated with the account you use to sign into the Azure portal and the QnA Maker portal. |
     |Azure Subscription name|The billing account in which you created the QnA Maker resource.|
-    |Azure QnA Service|Your existing QnA Maker resource.|
+    |Azure language servive Service|Your existing language resource.|
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-2.png)
+   
 
 1. Enter your knowledge base name, `AI Bootcamp kb`.
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-3.png)
+   
 
 1. Populate your knowledge base with the following settings:  
 
@@ -84,7 +80,7 @@ A client application for QnA Maker is any conversational application that commun
     |File |_not used in this tutorial_|This uploads files for questions and answers. |
     |Chit-chat personality|None|This gives a friendly and casual [personality](Concepts/best-practices.md#chit-chat) to common questions and answers. You can edit these questions and answers later. |
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-4.png)
+    ![Screenshot of portal](media/create-kb-step-4.png)
 
 1. Select **Create your KB** to finish the creation process.
 
@@ -180,9 +176,9 @@ Any question that QnA Maker is not confident about receives the default answer. 
 
     QnA Maker returned a score of `0`, which means no confidence. It also returned the default answer. 
 
-##Create a QnA Bot with Azure Bot Service v4
+##Create a language Bot with Azure Bot Service v4
 
-### Create a QnA Bot
+### Create a language service Bot
 
 Create a bot as a client application for the knowledge base. 
 
