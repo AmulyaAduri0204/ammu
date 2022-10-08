@@ -160,19 +160,8 @@ Create a bot as a client application for the knowledge base.
 
 ### Chat with the Bot
 
-1. In the Azure portal, open the new bot resource from the notification. 
+![Screenshot 2022-10-08 163127 chat with bot](https://user-images.githubusercontent.com/111121880/194706337-cb1b2de5-2539-4373-bc4f-db09f0d775c1.png)
 
-    ![In the Azure portal, open the new bot resource from the notification.](/media/azure-portal-notifications.png)
-
-1. From **Bot management**, select **Test in Web Chat** and enter: `How large can my KB be?`. The bot will respond with: 
-
-
-    `The size of the knowledge base depends on the SKU of Azure search you choose when creating the QnA Maker service. Read [here](https://docs.microsoft.com/azure/cognitive-services/qnamaker/tutorials/choosing-capacity-qnamaker-deployment)for more details.`
-
-
-    ![Test the new knowledge base bot.](/media/test-azure-portal.PNG)
-
-    For more information about Azure Bots, see [Use QnA Maker to answer questions](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&tabs=cs)
 
 
 ### Add personnality with Chit-Chat 
