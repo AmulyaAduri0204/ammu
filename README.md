@@ -15,13 +15,6 @@ In this workshop, you will learn how :
 
 A bot is an autonomous program that interacts with people or computer systems in a predictable way. The logic behind a bot is designed and programmed by the bot creator, often with the help of tools like the Microsoft Bot Framework. Microsoft also has other AI services, included in Azure Cognitive Services, that can enhance the capabilities of your bots.
 
-
-
-
-QnA Maker is a cloud-based Natural Language Processing (NLP) service that easily creates a natural conversational layer over your data. It can be used to find the most appropriate answer for any given natural language input, from your custom knowledge base (KB) of information.
-
-A client application for QnA Maker is any conversational application that communicates with a user in natural language to answer a question. Examples of client applications include social media apps, chat bots, and speech-enabled desktop applications.
-
 ## create a language service in azure portal
 
 ### by using language service create a bot
@@ -83,46 +76,21 @@ A client application for QnA Maker is any conversational application that commun
     |File |_not used in this tutorial_|This uploads files for questions and answers. |
     |Chit-chat personality|None|This gives a friendly and casual [personality](Concepts/best-practices.md#chit-chat) to common questions and answers. You can edit these questions and answers later. |
 
-    ![Screenshot of portal](media/create-kb-step-4.png)
-
-1. Select finish the creation process.
-
-    ![Screenshot 2022-10-08 162503 language service](https://user-images.githubusercontent.com/111121880/194704000-1cc0b98f-f25d-4cfe-98bb-251d26eb4037.png)
-   choose a subscription for creating a resource
-
-### Review, save, and train the knowledge base
-
-1. Review the questions and answers.
-
    
 
-1. Select **Test** in the top menu bar.
+1. select manage services
+![manage service in chattbot](https://user-images.githubusercontent.com/111121880/194705544-d6094618-b952-486c-a1da-3c255299f4ef.png)
+2. edit knowledge base
+![knowledge base](https://user-images.githubusercontent.com/111121880/194705600-3fafc476-89c1-46cb-9060-f7364fc99701.png)
+3.deploy knowledge base
+![deploy knowledge base](https://user-images.githubusercontent.com/111121880/194705667-86fbdf99-8e9b-4912-ac64-7da38ad9273e.png)
 
-1. Type **how large** on the text box.
 
-1. Select Inspect. You can add alternative phrasing for this Answer or new answer for this question, if you think the answer is wrong.
- 
- ### Publish to get knowledge base endpoints
-
-Select the **Publish** button from the top menu. On the publish page, select **Publish**.
-
-![Screenshot of QnA Maker portal](media/publish-1.png)
-
-After the knowledge base is published, the endpoint is displayed.
-
-![Screenshot of endpoint settings](media/publish-2.png)
 
 Don't close this **Publish** page. You need it later in the tutorial, to create a bot. 
 
 ### Use cURL to query for an FAQ answer
 
-1. Select the **Curl** tab. 
-
-![Screenshot of Curl tab](media/publish-3-curl.png)
-
-1. Copy the text of the **Curl** tab, and run it in a cURL-enabled terminal or command-line. The authorization header's value includes the text `Endpoint`, with a trailing space and then the key.
-
-1. Replace `<Your question>` with `How large can my KB be?`. This is close to the question, `How large a knowledge base can I create?`, but not exactly the same. QnA Maker applies natural language processing to determine that the two questions are the same.     
 
 1. Run the cURL command and receive the JSON response, including the score and answer. 
 
