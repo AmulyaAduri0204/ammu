@@ -51,32 +51,7 @@ A bot is an autonomous program that interacts with people or computer systems in
 
 
 1. Click Create to deploy the service. This step might take a few moments.
-
-1. Once the deployment is complete, return to portal and click Refresh on step 2.
-
-1. Select your existing settings:  
-
-    |Setting|Purpose|
-    |--|--|
-    |Microsoft Azure Directory ID|This ID is associated with the account you use to sign into the Azure portal and the QnA Maker portal. |
-    |Azure Subscription name|The billing account in which you created the QnA Maker resource.|
-    |Azure language servive Service|Your existing language resource.|
-
-   
-
-1. Enter your knowledge base name, `AI Bootcamp kb`.
-
-   
-
-1. Populate your knowledge base with the following settings:  
-
-    |Setting name|Setting value|Purpose|
-    |--|--|--|
-    |URL|`https://docs.microsoft.com/azure/cognitive-services/qnamaker/faqs` |The contents of the FAQ at that URL are formatted with a question followed by an answer. QnA Maker can interpret this format to extract questions and the associated answers.|
-    |File |_not used in this tutorial_|This uploads files for questions and answers. |
-    |Chit-chat personality|None|This gives a friendly and casual [personality](Concepts/best-practices.md#chit-chat) to common questions and answers. You can edit these questions and answers later. |
-
-   
+  ![deploy knowledge base](https://user-images.githubusercontent.com/111121880/194706199-77c05479-7991-438f-9f85-a867e9b54e78.png)
 
 1. select manage services
 ![manage service in chattbot](https://user-images.githubusercontent.com/111121880/194705544-d6094618-b952-486c-a1da-3c255299f4ef.png)
