@@ -85,27 +85,24 @@ A client application for QnA Maker is any conversational application that commun
 
     ![Screenshot of portal](media/create-kb-step-4.png)
 
-1. Select **Create your KB** to finish the creation process.
+1. Select finish the creation process.
 
-    ![Screenshot of QnA Maker portal](media/create-kb-step-5.png)
+    ![Screenshot 2022-10-08 162503 language service](https://user-images.githubusercontent.com/111121880/194704000-1cc0b98f-f25d-4cfe-98bb-251d26eb4037.png)
+   choose a subscription for creating a service
 
 ### Review, save, and train the knowledge base
 
 1. Review the questions and answers.
 
-    ![Screenshot of QnA Maker portal](media/save-and-train-kb.png)
+   
 
 1. Select **Test** in the top menu bar.
 
 1. Type **how large** on the text box.
 
 1. Select Inspect. You can add alternative phrasing for this Answer or new answer for this question, if you think the answer is wrong.
-
- ![Screenshot of Test](media/test-kb.PNG)
-
-1. Select **Save and train** in the top menu bar.
-
-### Publish to get knowledge base endpoints
+ 
+ ### Publish to get knowledge base endpoints
 
 Select the **Publish** button from the top menu. On the publish page, select **Publish**.
 
