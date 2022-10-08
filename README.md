@@ -2,7 +2,7 @@
 
 In this workshop, you will learn how :
  * we use a language service
- * by using language create a bot
+ * by using language resorce create a bot
  * Integrate with Azure Bot Service
  * Chat with the bot to verify the code is working
  * Add Chit-chat personality at your knowledge base
