@@ -84,6 +84,9 @@ A bot is an autonomous program that interacts with people or computer systems in
 ![knowledge base](https://user-images.githubusercontent.com/111121880/194705600-3fafc476-89c1-46cb-9060-f7364fc99701.png)
 3.deploy knowledge base
 ![deploy knowledge base](https://user-images.githubusercontent.com/111121880/194705667-86fbdf99-8e9b-4912-ac64-7da38ad9273e.png)
+4.create a web app bot
+![web app bot](https://user-images.githubusercontent.com/111121880/194705810-32a8e0fa-5437-47c2-93e4-01ca5b286187.png)
+
 
 
 
