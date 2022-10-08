@@ -145,9 +145,9 @@ Any question that QnA Maker is not confident about receives the default answer. 
     ```
     
 
-    QnA Maker returned a score of `0`, which means no confidence. It also returned the default answer. 
+    
 
-##Create a language Bot with Azure Bot Service v4
+##Create a language service Bot with Azure Bot Service v4
 
 ### Create a language service Bot
 
@@ -155,7 +155,8 @@ Create a bot as a client application for the knowledge base.
 
 1. In the QnA Maker portal, go to the **Publish** page, and publish your knowledge base. Select **Create Bot**. 
 
-    ![In the QnA Maker portal, go to the Publish page, and publish your knowledge base. Select Create Bot.](/media/create-bot-from-qna-portal.PNG)
+   ![web app bot](https://user-images.githubusercontent.com/111121880/194705988-9eae0f93-1814-4163-afc8-0875e359980a.png)
+
 
     The Azure portal opens with the bot creation configuration.
 
