@@ -24,7 +24,7 @@ A client application for QnA Maker is any conversational application that commun
 
 ## create a language service in azure portal
 
-### by using language studio create a bot
+### by using language service create a bot
 ![Screenshot 2022-10-08 161103](https://user-images.githubusercontent.com/111121880/194703511-58fa1b53-bfd4-4d5a-8e3a-de201d02f6c4.png)
 
 ![image](https://user-images.githubusercontent.com/111121880/194703605-1809de72-e132-4e41-8237-4a202b64bb7a.png)
