@@ -54,7 +54,8 @@ A client application for QnA Maker is any conversational application that commun
 
 **Application Insights Location:** Select Canada Central
 
-   ![Screenshot of QnA Maker portal](media/create-qna-service.PNG)
+   ![image](https://user-images.githubusercontent.com/111121880/194703849-712b6716-59ca-4711-b93a-dc4b8cbff717.png)
+
 
 1. Click Create to deploy the service. This step might take a few moments.
 
