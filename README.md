@@ -88,7 +88,7 @@ A client application for QnA Maker is any conversational application that commun
 1. Select finish the creation process.
 
     ![Screenshot 2022-10-08 162503 language service](https://user-images.githubusercontent.com/111121880/194704000-1cc0b98f-f25d-4cfe-98bb-251d26eb4037.png)
-   choose a subscription for creating a service
+   choose a subscription for creating a resource
 
 ### Review, save, and train the knowledge base
 
