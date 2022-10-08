@@ -130,7 +130,7 @@ Create a bot as a client application for the knowledge base.
 
 1. In the QnA Maker portal, go to the **Publish** page, and publish your knowledge base. Select **Create Bot**. 
 
-   ![web app bot](https://user-images.githubusercontent.com/111121880/194705988-9eae0f93-1814-4163-afc8-0875e359980a.png)
+   
 
 
     The Azure portal opens with the bot creation configuration.
